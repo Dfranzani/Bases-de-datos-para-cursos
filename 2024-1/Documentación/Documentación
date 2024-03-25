@@ -1,0 +1,12 @@
+1) Belgian Electricity Prices.csv
+
+​La transparencia ha mejorado notablemente en Europa en los últimos años, culminando con el Reglamento (UE) nº 5 43/2013, de 14 de junio de 2013, sobre presentación y publicación de datos en los mercados eléctricos. A través de este Reglamento, ahora es obligatorio para los proveedores y propietarios de datos de los Estados miembros europeos presentar información fundamental relacionada con la generación, carga, transmisión y balanceo de electricidad para su publicación a través de la Plataforma de Transparencia ENTSO-E.
+
+La transparencia es esencial para la implementación del Mercado Interior Eléctrico (MEI) y para la creación de mercados mayoristas eficientes, líquidos y competitivos. También es fundamental para crear igualdad de condiciones entre los participantes del mercado y evitar que se abuse del poder de mercado (si existe). Esta plataforma permite proporcionar la información necesaria sobre el mercado de la electricidad para el futuro y facilita aún más el desarrollo de sistemas eficientes. y mercados energéticos competitivos en toda Europa. Estos acontecimientos respaldan la evolución constante de los mercados eléctricos en toda Europa en términos de integración, competencia.
+
+link: https://www.entsoe.eu/data/transparency-platform/
+
+Columnas de la base de datos:
+
+- MTU: Hora de inicio del coste de la electricidad.
+- [EUR / MWh]: Precio por hora
