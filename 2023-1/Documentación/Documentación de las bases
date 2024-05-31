@@ -1,0 +1,235 @@
+1) Base: PIB+anual+histórico+2022
+
+Unidades en miles de millones de pesos
+
+- Periodo: año
+- Corriente: PIB a precios corrientes
+- Encadenado: PIB volumen a precios del año anterior encadenado
+- EncadenadoDes: PIB volumen a precios del año anterior encadenado (desestacionalizado)
+
+2) Base: PIB+Regional+2014+2021
+
+Unidades en miles de millones de pesos
+
+- Reg: numeración de la región
+- Region: región
+- del 2013 al 2021: PIB regional, volumen a precios del año anterior encadenado.
+
+3) Base: Poblacion+nacional
+
+Números de porlbación por sexo. Datos extraídos del INE
+
+- Periodo: Año
+- Hombres: total de hombres en la población
+- Mujeres: total de mujeres en la población
+
+4) Base: Tipo+de+cambio+extranjero+2022
+
+Paridades de monedas extranjeras (moneda/dólar de los Estados Unidos de América)
+
+- Periodo: día.mes.año de medición del tipo de cambio
+- ... Locaciones ...: cada columna representa un país
+
+5) Base: Deudas+sexo+tipo
+
+Monto (en pesos) de deudas por sexo y tipo
+
+- Periodo: Año
+- ComercialesM: Monto de deudas comerciales, mujeres
+- ComercialesH: Monto de deudas comerciales, hombres
+- ConsumoM: Monto de deudas de consumo, mujeres
+- ConsumoH: Monto de deudas de consumo, hombres
+- ViviendaM: Monto de deudas de vivienda, mujeres
+- ViviendaH: Monto de deudas de vivienda, hombres
+
+
+6) Base: UF+IVP+2022
+
+Indicadores de reajustabilidad diario
+
+- Periodo: días.mes.año
+- UF: Unidad de fomento
+- IVP: Índice de valor promedio
+
+
+7) Base: control+cuotas.csv
+
+Contiene los datos de los valores cuota de los primeros tres meses del año 2022 de las AFP Plan Vital y Provida.
+
+- Plan.Vital: contiene los valores cuota en pesos de la AFP Plan Vital de un APV de fondo A.
+- Provida: contiene lo valores cuota en pesos de la AFP Provida de un APV de fondo A.
+
+
+8) Base: Ratios+respecto+al+PIB.csv
+
+Los agregados monetarios se definen como el dinero que está en poder del sector privado no bancario. Se entiende por dinero a los activos que los agentes económicos están dispuestos a aceptar como medio de pago de bienes y servicios o como reembolso de deuda. En el caso de Chile, los agregados monetarios se definen como M1, M2 y M3. M1 es el concepto más líquido de dinero; está compuesto por los billetes y monedas en circulación, las cuentas corrientes y cuentas a la vista. Por su parte, M2 considera, además de M1, los depósitos a plazo en pesos chilenos. Finalmente, M3 incluye M2 y los depósitos en moneda extranjera, así como la tenencia de bonos por parte del sector privado no bancario.
+
+M1, M2 y M3: Ratios respecto al PIB (porcentaje del PIB
+
+La base contiene las siguientes columnas.
+
+- Periodo: Fecha que considere el trimestre pasado medido, ejemplo: 1 de marzo del 2023 corresponde al valor en el primer trimestre.
+- M1
+- M2
+- M3
+
+9) Base: Imacec+Imacec	Comercio	Servicios	Imacecnominero	Trimestre	Ano
+Comercio+Servicio.csv
+
+- Ano: Año de medición del Imacec.
+- Trimestre: trimestre de medición del Imacec.
+- Imacec: Imacec general
+- Comercio: Imacec del sector de Comercio.
+- Servicios: Imacec del sector de Servicios.
+- Imacecnominerio: Imacec del sector no Minero.
+
+10) Base: monedas+billetes+circulacion.csv
+
+Saldos en millones de pesos
+
+11) Base: Contacto+clientes.csv
+
+La base de datos contiene información sobre los contactos de ejecutivos a potenciales clientes. Las columnas de la base de datos son las siguientes.
+
+- Edad: edad de la persona contactada por ejecutivo.
+- Sexo: Masculino (M) o Femenino (F).
+- Tipo: Tipo de medio por el cual el cliente se informa del producto que ofrece la empresa a la cual pertenece el ejecutivo (Facebook, FI o Banner Web Interactivo, Google, Instragram u Otro).
+- diaSemanaContacto: día de la semana en la que el ejecutivo contacta al cliente (de 2 a 7, siendo 7 el día domingo).
+
+12) Base: Ingreso+universidad.csv
+
+Esta base contiene datos relacionados a características de ingresos de estudiantes a un determinada universidad. Las columnasde la base de datos son las siguientes.
+
+
+- Sexo: Hombre o Mujer.
+- Ingreso: indica la vía de ingreso dle estudiante a la universidad, se clasifica en PTU u Otra.
+- Logro: corresponde a la proporción de logro (número entre 0 y 1, un logro de 0.4 indica que el estudiante respondió correctamente un 40% de la prueba) del estudiante en el diagnóstico de "Comunicación escrita" aplicado por la universidad a la cual ingresa.
+- LEN: Puntaje PTU - Lenguaje.
+- NEM: Puntaje NEM del estudiante.
+
+13) Base: Empleo+femenino.csv
+
+
+Las mujeres ocupan aproximadamente la mitad de la población mundial, pero cuando se trata de la fuerza laboral total de un país, el porcentaje de trabajadores masculinos y femeninos rara vez es similar. Esto es aún más prominente para los países en desarrollo y subdesarrollados. Si bien varias razones, como el acceso insuficiente a la educación, las supersticiones religiosas y la falta de infraestructuras adecuadas, son responsables de esta discrepancia, va mucho más allá. Y para mostrar los efectos de múltiples factores socioeconómicos sobre la participación de la mujer en la fuerza laboral total, se ha considerado el porcentaje de empleo femenino en la fuerza laboral total, entre otros.
+
+El conjunto de datos se eligió de una encuesta realizada en la población de Bangladesh. La base de datos contiene los siguientes datos:
+
+- Year: Año de medición.
+- PerFemEmploy: Relación entre empleo y población (\%) de mujeres de 15 años o más.
+- Ratio_MaletoFemale: Relación entre la tasa de participación de mujeres y hombres en la fuerza laboral. La tasa de participación en la fuerza laboral es la proporción de la población de 15 años o más que es económicamente activa.
+- Wage.Salaried: Trabajadores asalariados, mujeres (\% del empleo femenino). Los trabajadores asalariados (empleados) son aquellos trabajadores que ocupan el tipo de trabajos definidos como ``trabajos de empleo remunerado''.
+
+
+14) Base: drenaje.txt
+
+En un estudio para explicar la tasa máxima de flujo de seis sectores de drenaje después de una tormenta, se desea analizar la relación entre el logaritmo de esta tasa (logq) y los siguientes predictores, a través de un modelo de regresión lineal múltiple:
+
+    area: área del sector de drenaje.
+    area2: área impermeabilizada.
+    pendiente: pendiente media del sector.
+    largo: largo del flujo.
+    absorbencia: índice de absorbencia de la superficie (0: absorbencia total, 100: no absorbencia).
+    capacidad: capacidad estimada de almacenamiento del suelo.
+    infiltracion: tasa de infiltración del agua en el suelo.
+    lluvia: pulgadas de lluvia caída.
+    tiempo: tiempo en el cual la lluvia excedió 1/4 pulgadas/hora.
+
+15) Base: insurance.csv
+
+La siguiente base contiene datos relacionados a la contratación de seguros médicos. Las columnas de la base de datos son las siguientes:
+
+- age: edad del beneficiario principal.
+- sex: sexo del beneficiario principal.
+- bmi: índice de masa corporal del beneficiario principal.
+- children: número de niños cubiertos por el seguro.
+- smoker: indica si es ("yes") o no ("no") fumador el beneficiario principal.
+- region: el área residencial del beneficiario en los EE. UU., northeast, southeast, southwest, northwest.
+- charges: costos médicos individuales facturados por el seguro de salud.
+
+16) Base: salariosds.csv
+
+La siguiente base contiene datos referentes a salarios de trabajos de ciencia de datos.
+
+work_year: El año en que se pagó el salario.
+
+experience_level: El nivel de experiencia en el trabajo durante el año con los siguientes valores posibles: EN (Entry-level/Junior), MI (Mid-level/Intermediate), SE (Senior-level/Experto), EX (Executive-level/Director).
+
+tipo_empleo: El tipo de empleo para el rol, PT (Tiempo parcial), FT (Tiempo completo), CT (Contrato), FL (Independiente).
+
+job_title: La función en la que se trabajó durante el año.
+
+salary: La cantidad total del salario bruto pagado.
+
+salario_currency: La moneda del salario pagado como un código de moneda ISO 4217.
+
+salario_en_usd: El salario en USD (tasa de cambio dividida por la tasa promedio de USD para el año respectivo a través de fxdata.foorilla.com).
+
+employee_residence: País de residencia principal del empleado durante el año laboral como código de país ISO 3166.
+
+remote_ratio: La cantidad total de trabajo realizado de forma remota, los valores posibles son los siguientes: 0 Sin trabajo remoto (menos del 20 %), 50 Parcialmente remoto, 100 Totalmente remoto (más del 80 %)
+
+company_location: El país de la oficina principal del empleador o de la sucursal contratante como un código de país ISO 3166.
+
+company_size: El número promedio de personas que trabajaron para la empresa durante el año: S menos de 50 empleados (pequeño), M de 50 a 250 empleados (mediano), L más de 250 empleados (grande).
+
+17) Base: Heart & Heart2
+
+La base contiene datos respecto a los ataques al corazón de distintos pacientes hospitalarios. Las columnas de la base de datos son las siguientes:
+
+    age: edad del paciente (en años).
+    sex: sexo del paciente (Hombre "H" y  Mujer "M").
+    cp: Tipo de dolor en el pecho, Valor 1: angina típica, Valor 2: angina atípica, Valor 3: dolor no anginoso, Valor 4: asintomático.
+    trtbps: presión arterial en reposo (en mm Hg).
+    chol: nivel de colestorol (en mg/dl).
+    fbs: azúcar en sangre en ayunas > 120 mg/dl (V = verdadero; F = falso).
+    thalachh: frecuencia cardíaca máxima alcanzada (en latidos por minuto).
+    oldpeak: tiempo de duración del último ataque al corazón (en minutos).
+    
+18) Base: Sleep_health_and_lifestyle_dataset.csv & sleep2
+
+El conjunto de datos de salud y estilo de vida del sueño consta de 400 filas y 13 columnas, que cubren una amplia gama de variables relacionadas con el sueño y los hábitos diarios. Incluye detalles como sexo, edad, ocupación, duración del sueño, calidad del sueño, nivel de actividad física, niveles de estrés, categoría de IMC, presión arterial, frecuencia cardíaca, pasos diarios y la presencia o ausencia de trastornos del sueño.
+
+Las columnas del conjunto de datos son las siguientes:
+
+Person.ID: Un identificador para cada individuo.
+
+Gender: El género de la persona (Masculino/Femenino).
+
+Age: La edad de la persona en años.
+
+Ocupation: La ocupación o profesión de la persona.
+
+Sleep.Duration (horas): la cantidad de horas que la persona duerme por día.
+
+Quality.of.Sleep (escala: 1-10): una calificación subjetiva de la calidad del sueño, que va del 1 al 10.
+
+Physical.Activity.Level (minutos/día): la cantidad de minutos que la persona realiza actividad física diariamente.
+
+Stress.Level (escala: 1-10): Una calificación subjetiva del nivel de estrés experimentado por la persona, que va del 1 al 10. Un valor más alto indica mayor nivel de estrés.
+
+BMI.Category: la categoría de IMC de la persona (p. ej., bajo peso, normal, sobrepeso).
+
+Blood.Pressure (sistólica/diastólica): La medición de la presión arterial de la persona, indicada como presión sistólica sobre la presión diastólica.
+
+Heart.Rate (lpm): la frecuencia cardíaca en reposo de la persona en latidos por minuto.
+
+Daily.Steps: la cantidad de pasos que la persona da por día.
+
+Sleep.Disorder: La presencia o ausencia de un trastorno del sueño en la persona (Ninguno, Insomnio, Apnea del Sueño). 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
