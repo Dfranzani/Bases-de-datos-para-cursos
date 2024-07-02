@@ -1,0 +1,67 @@
+1) HousePrice.csv
+
+La Oficina del Censo de EE. UU. ha publicado datos del censo de California que tienen 10 tipos de métricas, como población, ingreso medio, precio medio de la vivienda, etc., para cada grupo de bloques en California. El conjunto de datos también sirve como entrada para el alcance del proyecto e intenta especificar los requisitos funcionales y no funcionales del mismo.
+
+Objetivo del problema:
+El proyecto tiene como objetivo construir un modelo de precios de vivienda para predecir los valores medios de las viviendas en California utilizando el conjunto de datos proporcionado. Este modelo debería aprender de los datos y poder predecir el precio medio de la vivienda en cualquier distrito, teniendo en cuenta todas las demás métricas.
+
+Los distritos o grupos de bloques son las unidades geográficas más pequeñas para las cuales la Oficina del Censo de EE. UU. publica datos de muestra (un grupo de bloques suele tener una población de 600 a 3000 personas). Hay 20.640 distritos en el conjunto de datos del proyecto.
+
+campo y descripción
+
+longitude (numérico con signo - flotante): valor de longitud para el bloque en California, EE. UU.
+latitude (numérico - flotante): valor de latitud para el bloque en California, EE. UU.
+housing_median_age (numeric - int): edad mediana de la casa en el bloque
+total_rooms ( numeric - int ): Recuento del número total de habitaciones (excluyendo dormitorios) en todas las casas del bloque
+total_bedrooms (numeric - float ): Recuento del número total de habitaciones en todas las casas de la
+population (numeric - int ): Recuento del número total de población en los
+households (numeric - int ): Recuento del número total de hogares en el bloque
+median_income (numeric - float ): Mediana del ingreso total de los hogares de todas las casas en el bloque
+ocean_proximity (numeric - categórico): Tipo de paisaje del bloque [Valores únicos: 'NEAR BAY', '<1H OCEAN', 'INLAND', 'NEAR OCEAN', 'ISLAND'] 
+median_house_value (numeric - int): Mediana de los precios de los
+hogares de todas las casas del bloque
+
+Base de datos extraída de Kaggle: https://www.kaggle.com/datasets/shibumohapatra/house-price/
+
+
+2) winequality.csv (white and red)
+
+Los dos conjuntos de datos están relacionados con las variantes tinto \href{https://raw.githubusercontent.com/Dfranzani/Bases-de-datos-para-cursos/main/2023-2/winequality-red.csv}{(link)} y blanco \href{https://raw.githubusercontent.com/Dfranzani/Bases-de-datos-para-cursos/main/2023-2/winequality-white.csv}{(link)} del vino portugués ``Vinho Verde''. Debido a cuestiones de privacidad y logística, sólo están disponibles variables fisicoquímicas (entradas) y sensoriales (salidas) (por ejemplo, no hay datos sobre tipos de uva, marca de vino, precio de venta del vino, etc.).
+
+Las columnas de las bases de datos son las siguientes:
+
+\begin{itemize}
+\item \texttt{fixed.acidity} (g/L): cantidad de la mayoría de los ácidos involucrados con el vino o fijos o no volátiles (no se evaporan fácilmente).
+\item \texttt{volatile.acidity} (g/L): cantidad de ácido acético en el vino, que en niveles demasiado altos puede provocar un sabor desagradable a vinagre
+\item \texttt{citric.acid} (g/L): cantidad de ácido cítrico, que se encuentra en pequeñas cantidades, puede añadir ``frescura'' y sabor a los vinos.
+\item \texttt{residual.sugar} (g/L): cantidad de azúcar que queda después de que se detiene la fermentación, es raro encontrar vinos con menos de 1 gramo/litro y los vinos con más de 45 gramos/litro se consideran dulces.
+\item \texttt{chlorides} (g/L): cantidad de sal en el vino.
+\item \texttt{free.sulfu.dioxide} (ppm): cantidad de la forma libre de SO2 existe en equilibrio entre el SO2 molecular (como gas disuelto) y el ion bisulfito; previene el crecimiento microbiano y la oxidación del vino.
+\item \texttt{total.sulfur.dioxide} (ppm): cantidad de formas libres y ligadas de S02; En concentraciones bajas, el SO2 es prácticamente indetectable en el vino, pero en concentraciones de SO2 libre superiores a 50 ppm, el SO2 se vuelve evidente en la nariz y el sabor del vino.
+\item \texttt{density} ($g/cm^3$): densidad del agua dependiendo del porcentaje de alcohol y contenido de azúcar.
+\item \texttt{pH}: describe qué tan ácido o básico es un vino en una escala de 0 (muy ácido) a 14 (muy básico); la mayoría de los vinos tienen entre 3 y 4 en la escala de pH.
+\item \texttt{sulphates} (mg/L): cantidad de aditivo del vino que puede contribuir a los niveles de dióxido de azufre (S02), que actúa como antimicrobiano y antioxidante.
+\item \texttt{alcohol} (ABV, Alcohol por volumen): el porcentaje de alcohol del vino.
+\item \texttt{quality}: variable de salida (basada en datos sensoriales, puntuación entre 0 y 10), un número cercano a 10 indica un vino de mayor calidad.
+\end{itemize}
+
+A continuación, utilice la base de datos asociada a los datos del vino tinto (si utiliza el comando \texttt{read.csv()} debe agregar el, argumento \texttt{sep = ";"}) para los enunciados siguientes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

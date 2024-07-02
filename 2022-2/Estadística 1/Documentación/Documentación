@@ -1,0 +1,11 @@
+1) diabetes.csv
+
+Pregnancies: Número de veces que está embarazada
+Glucose: Concentración de glucosa plasmática en la sangre a las 2 horas en una prueba de tolerancia oral a la glucosa (mg/dL).
+BloodPressure: presión arterial diastólica (mm Hg)
+SkinThickness: Grosor del pliegue cutáneo del tríceps (mm)
+Insulin: insulina sérica de 2 horas (mU/mL)
+BMI: índice de masa corporal (peso en kg/(altura en m)^2)
+DiabetesPedigreeFunction: Función de pedigrí de diabetes, que califica la probabilidad de diabetes según los antecedentes familiares.
+Age: Edad (años)
+Outcome: variable de clase (0 o 1, o no tiene o tiene diabetes)
