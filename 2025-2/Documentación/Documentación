@@ -1,0 +1,23 @@
+1. Data Morocco.xlsx
+
+link oficial: https://archive.ics.uci.edu/dataset/1158/high-resolution+load+dataset+from+smart+meters+across+various+cities+in+morocco
+
+El conjunto de datos incluye mediciones detalladas del consumo de electricidad de varias áreas de Laâyoune, Boujdour, Marrakech y Foum. Presenta los perfiles de consumo nacionales e industriales con una frecuencia de registro cada 10 minutos para Laâyoune Boujdour y Foum y cada 30 minutos para Marrakech. Los datos se organizan en varias tablas que muestran tendencias de uso por ciudad y área, lo que permite el análisis de las variaciones diarias en la demanda, las fluctuaciones estacionales y las cargas máximas. Un elemento importante para el conjunto de datos incluye mediciones detalladas del consumo de electricidad de varias áreas de Laâyoune, Boujdour, Marrakech y Foum. Presenta los perfiles de consumo nacionales e industriales con una frecuencia de registro cada 10 minutos para Laâyoune Boujdour y Foum y cada 30 minutos para Marrakech. Todos los datos están en Amperes (a), excepto Marrakech, que está en kilovatios (kW).
+
+2. WEC
+
+link oficial: https://archive.ics.uci.edu/dataset/882/large-scale+wave+energy+farm
+
+Wave Energy es una fuente de energía renovable rápidamente avanzada y prometedora que tiene un gran potencial para abordar los desafíos del calentamiento global y el cambio climático. Sin embargo, la optimización de la producción de energía en granjas de olas grandes presenta un problema complejo debido a los costosos cálculos requeridos para tener en cuenta las interacciones hidrodinámicas entre los convertidores de energía de onda (WEC). Desarrollar un modelo sustituto rápido y preciso es crucial para superar estos desafíos. A la luz de esto, hemos compilado un extenso conjunto de datos WEC que incluye configuraciones de 54,000 y 9,600 que involucran 49 y 100 WEC, coordinación, potencia, factor Q y potencia de granja total. El conjunto de datos se derivó de un estudio publicado en la conferencia GECCO y recibió el prestigioso premio al Mejor Papel. Queremos reconocer el apoyo del servicio HPC de la Universidad de Adelaide Phoenix en la realización de esta investigación. Para obtener más detalles, consulte el siguiente enlace: https://dl.acm.org/doi/abs/10.1145/3377930.3390235.
+
+
+El conjunto de datos incluye 4 archivos CSV para 49 y 100 convertidores de energía undimotriz, basados ​​en los escenarios de olas de Perth y Sídney. El objetivo principal es predecir la potencia total de salida del parque undimotriz basándose en la coordinación de los WEC (X1, Y1, X2, Y2,..., Xn, Yn). Como segundo plan, puede ser interesante predecir la potencia de salida de cada convertidor del parque undimotriz.
+
+3. gsalc.csv
+
+link oficial: https://archive.ics.uci.edu/dataset/1081/gas+sensor+array+low-concentration
+
+Este conjunto de datos contiene 6 respuestas de gas recopiladas por un conjunto de sensores que consta de 10 sensores semiconductores de óxido metálico, con concentraciones de gas en el nivel de ppb (por debajo del límite mínimo de detección de los sensores).
+
+En el archivo gsalc.csv, cada fila representa una muestra de gas, y la primera y la segunda columna de cada fila representan las etiquetas de gas y de concentración, respectivamente. A partir de la tercera columna, se registra la respuesta del conjunto de sensores a la muestra. Cada muestra tiene 9000 puntos de respuesta, que se concatenan a partir de las respuestas de 10 sensores, en el orden TGS2603, TGS2630, TGS813, TGS822, MQ-135, MQ-137, MQ-138, 2M012, VOCS-P y 2SH12 (es decir, los primeros 900 puntos de muestra corresponden a las respuestas del sensor TGS2603, y los puntos de muestra entre el 901 y el 1800 corresponden a las respuestas del sensor TGS2630).
+
